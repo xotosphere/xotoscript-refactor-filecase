@@ -1,0 +1,19 @@
+{
+  "name": "xotoscript-refactor-filecase",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "boot": "yarn install && yarn run compile",
+    "compile": "tsc",
+    "watch": "tsc -watch",
+    "start": "node ./dist/index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.15.5",
+    "change-case": "^4.1.2",
+    "glob": "^9.3.0",
+    "replace-in-files": "^3.0.0"
+  }
+}
